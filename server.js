@@ -1,7 +1,8 @@
 const express = require('express');
-const { tea } = require("./tea");
 const app = express() // allows us to use methods that come with express
-const PORT = process.env.PORT || 8000
+const { tea } = require("./tea");
+const cors = require('cors');
+const PORT = process.env.PORT || 8000;
 
 app.get('/', (req,res) => {
     res.sendFile(__dirname + '/index.html');
