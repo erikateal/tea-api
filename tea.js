@@ -1,5 +1,4 @@
 const tea = {
-    'greentea': {
         'chunmee': [
             {
                 'name': 'Chun Mee',
@@ -23,7 +22,7 @@ const tea = {
                 'category': 'Green Tea',
                 'flavor_profile': 'A green tea with a strong aroma and a light floral taste.',
                 'description': 'Renowned for its delicate appearance, fruity taste, floral aroma, showy white hairs and early cropping.',
-                'origin': '	Dongting Mountains, Suzhou, Jiangsu Province, China',
+                'origin': 'Dongting Mountains, Suzhou, Jiangsu Province, China',
             }
         ],
         'gunpowder': [
@@ -62,7 +61,6 @@ const tea = {
                 'origin': '	Anhui province, China',
             }
         ],
-    'blacktea': {
         'nameLowerCaseNoSpace': [
             {
                 'name': 'nameOfTea',
@@ -86,74 +84,6 @@ const tea = {
                 'origin': 'country',
             }
         ],
-    },
-    'whitetea': {
-        'nameLowerCaseNoSpace': [
-            {
-                'name': 'nameOfTea',
-                'alterative_name': [
-                    {
-                        'alt_names': 'altName',
-                    },
-                ],
-                'varieties': [
-                    {
-                        'type':'name',
-                        'description': 'shortDescription',
-                    },
-                ],
-                'category': 'White Tea',
-                'flavor_profile': 'flavor',
-                'description': 'shortDescription',
-                'origin': 'country',
-            }
-        ],
-    },
-    'oolongtea': {
-        'nameLowerCaseNoSpace': [
-            {
-                'name': 'nameOfTea',
-                'alterative_name': [
-                    {
-                        'alt_names': 'altName',
-                    },
-                ],
-                'varieties': [
-                    {
-                        'type':'name',
-                        'description': 'shortDescription',
-                    },
-                ],
-                'category': 'Oolong Tea',
-                'flavor_profile': 'flavor',
-                'description': 'shortDescription',
-                'origin': 'country',
-            }
-        ],
-    },
-    'herbal': {
-        'nameLowerCaseNoSpace': [
-            {
-                'name': 'nameOfTea',
-                'alterative_name': [
-                    {
-                        'alt_names': 'altName',
-                    },
-                ],
-                'varieties': [
-                    {
-                        'type':'name',
-                        'description': 'shortDescription',
-                    },
-                ],
-                'category': 'category',
-                'flavor_profile': 'flavor',
-                'description': 'shortDescription',
-                'origin': 'country',
-            }
-        ],
-    },
-    }
-};
+    };
 
 exports.tea = tea;
